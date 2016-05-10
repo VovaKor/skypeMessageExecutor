@@ -1,0 +1,35 @@
+<?xml version= '1.0'?>
+<!DOCTYPE ADDRESSBOOK [
+<!ELEMENT ADDRESSBOOK (COMMAND)*>
+<!ELEMENT COMMAND (NICKNAME, FULLPATH)>
+<!ELEMENT NICKNAME (#PCDATA)>
+<!ELEMENT FULLPATH (#PCDATA)>
+]>
+<ADDRESSBOOK>
+
+  <COMMAND>
+    <NICKNAME>notepad</NICKNAME>
+    <FULLPATH>C:\Windows\system32\notepad.exe</FULLPATH>
+  </COMMAND>
+
+  <COMMAND>
+    <NICKNAME>7z</NICKNAME>
+    <FULLPATH>C:\Program Files\7-Zip\7zFM.exe</FULLPATH>
+  </COMMAND>
+
+  <COMMAND>
+    <NICKNAME>lingvo</NICKNAME>
+    <FULLPATH>C:\Program Files\ABBYY Lingvo x5\Lingvo.exe</FULLPATH>
+  </COMMAND>
+
+  <COMMAND>
+    <NICKNAME>iptvplayer</NICKNAME>
+    <FULLPATH>C:\Program Files\IP-TV Player\IpTvPlayer.exe</FULLPATH>
+  </COMMAND>
+
+  <COMMAND>
+    <NICKNAME>dejavu</NICKNAME>
+    <FULLPATH>C:\Program Files\WinDjView\WinDjView.exe</FULLPATH>
+  </COMMAND>
+
+</ADDRESSBOOK>
